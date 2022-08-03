@@ -36,6 +36,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  font-size: 1.3em;
 `;
 
 export const HeaderThree = styled.h3`
@@ -85,14 +86,15 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-  color: #d4c0c0;
+  color: #001d3d;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
-  background: #6b3030;
+  background: #ffd60a;
   border-radius: 15px;
   transition: 0.5s;
+  font-weight: bold;
   &:hover {
-    background: #801414;
+    background: #ffc300;
   }
 `;
 

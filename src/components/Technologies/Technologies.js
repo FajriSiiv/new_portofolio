@@ -18,10 +18,11 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, facere!
-      Lorem ipsum dolor sit amet.
+      {" "}
+      I've worked with a range a technologies in the web development, frameworks
+      and design tools.
     </SectionText>
 
     <List>

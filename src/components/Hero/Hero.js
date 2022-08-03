@@ -16,10 +16,8 @@ const Hero = (props) => (
         My Personal Portofolio
       </SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-        consequatur pariatur harum.
+        I am an Frontend Developer that has a passion for design and technology.
       </SectionText>
-      <Button>Learn More</Button>
     </LeftSection>
   </Section>
 );
