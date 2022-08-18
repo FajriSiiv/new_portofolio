@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "Bura",
-    image: "/images/bura.jpg",
-    tags: ["HTML", "CSS", "Javascript", "GSAP"],
-    visit: "https://fajrisiiv.github.io/bura/",
+    title: "API Cryptocurrency",
+    image: "/images/crypto.webp",
+    tags: ["Javascript", "Next.js", "TailwindCSS"],
+    visit: "https://crypto-1-six.vercel.app/",
     id: 0,
   },
   {
@@ -46,6 +46,6 @@ export const projects = [
 export const TimeLineData = [
   { year: 2019, text: "Started learning website" },
   { year: 2020, text: "Code and Build example projects" },
-  { year: 2021, text: "Worked as a Frontend Develoeper" },
+  { year: 2021, text: "Worked as a Frontend Developer" },
   { year: 2022, text: "Worked as a Freelancer" },
 ];
