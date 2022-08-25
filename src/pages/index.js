@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <Layout>
       <Head>
-        <title>Portofolio</title>
+        <title>Portofolio | Muhammad Fajri</title>
       </Head>
       <Section grid>
         <Hero />

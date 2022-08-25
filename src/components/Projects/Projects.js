@@ -1,17 +1,15 @@
 import React from "react";
+import { HiOutlineExternalLink } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
 
 import {
-  BlogCard,
-  CardInfo,
-  ExternalLinks,
-  GridContainer,
-  HeaderThree,
-  Hr,
-  Tag,
-  TagList,
-  TitleContent,
-  UtilityList,
-  Img,
+  FlexContainer,
+  Card,
+  Title,
+  Desc,
+  Tags,
+  DivTags,
+  LinkS,
 } from "./ProjectsStyles";
 import {
   Section,
@@ -22,36 +20,30 @@ import {
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
-    <GridContainer>
-      {projects.map(
-        ({ id, image, title, description, tags, source, visit }) => (
-          <BlogCard key={id}>
-            <Img src={image} />
-            <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
-              <Hr />
-            </TitleContent>
-            <CardInfo>{description}</CardInfo>
-            <div>
-              <TitleContent>Stack</TitleContent>
-              <TagList>
-                {tags.map((tag, i) => (
-                  <Tag>{tag}</Tag>
-                ))}
-              </TagList>
-            </div>
-            <UtilityList>
-              <ExternalLinks target="_blank" href={visit}>
-                Code
-              </ExternalLinks>
-            </UtilityList>
-          </BlogCard>
-        )
-      )}
-    </GridContainer>
+    <FlexContainer>
+      {projects.map(({ id, image, title, desc, tags, source, visit }) => (
+        <Card key={id}>
+          <Title>{title}</Title>
+          <Desc>{desc}</Desc>
+          <DivTags>
+            {tags.map((e) => (
+              <Tags key={e}>{e}</Tags>
+            ))}
+          </DivTags>
+          <DivTags>
+            <LinkS target="_blank" href={visit}>
+              <HiOutlineExternalLink />
+            </LinkS>
+            <LinkS target="_blank" href={source}>
+              <FaGithub />
+            </LinkS>
+          </DivTags>
+        </Card>
+      ))}
+    </FlexContainer>
   </Section>
 );
 
