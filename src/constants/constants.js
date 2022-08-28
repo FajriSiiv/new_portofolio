@@ -63,6 +63,14 @@ export const projects = [
     desc: "e-commerce consume API and adding items into cart.",
     source: "https://github.com/FajriSiiv/shopcart1",
   },
+  {
+    title: "Movie APP",
+    tags: ["React.js", "Styled-Components", "API"],
+    visit: "https://movie-app-pi-rose.vercel.app/",
+    id: 7,
+    desc: "Movie APP consume data with API and send rate movie with API rule",
+    source: "https://github.com/FajriSiiv/movie-app",
+  },
 ];
 
 export const TimeLineData = [
