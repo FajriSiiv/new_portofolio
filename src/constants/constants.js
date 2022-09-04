@@ -16,12 +16,12 @@ export const projects = [
     source: "https://github.com/FajriSiiv/search-user-github",
   },
   {
-    title: "Nextmic",
-    tags: ["React", "GSAP", "Javascript", "Animation"],
-    visit: "https://nextmic-react.netlify.app/",
+    title: "Spotify Clone",
+    tags: ["React", "Context", "Styled Components", "API"],
+    visit: "https://spotify-clone-gilt.vercel.app/",
     id: 2,
-    desc: "Landing page with React.js and style components",
-    source: "https://github.com/FajriSiiv/niomic_clone",
+    desc: "Cloning Spotify App with react,usecontext, API Consume",
+    source: "https://github.com/FajriSiiv/spotify-clone/tree/master",
   },
   {
     title: "Dashboard",
