@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "API Cryptocurrency",
-    tags: ["Javascript", "Next.js", "TailwindCSS"],
-    visit: "https://crypto-1-six.vercel.app/",
+    title: "Chrip.",
+    tags: ["Next.js", "TailwindCSS"],
+    visit: "https://chrip.vercel.app/",
     id: 0,
-    desc: "Consume API Crypto Ranking and details",
-    source: "https://github.com/FajriSiiv/crypto_1",
+    desc: "Creating landing page from design",
+    source: "https://github.com/FajriSiiv/chrip",
   },
   {
     title: "Github Search Profil",
