@@ -9,11 +9,11 @@ export const projects = [
   },
   {
     title: "Github Search Profil",
-    tags: ["React", "API"],
-    visit: "https://github-search-01.netlify.app/",
+    tags: ["NEXT.js", "API", "TailwindCSS"],
+    visit: "https://github-search-fajri.vercel.app/",
     id: 1,
-    desc: "Searching github profile, repositories and consume API from github.",
-    source: "https://github.com/FajriSiiv/search-user-github",
+    desc: "Searching github profile and consume API from github.",
+    source: "https://github.com/FajriSiiv/github-search",
   },
   {
     title: "Spotify Clone",
@@ -71,6 +71,7 @@ export const projects = [
     desc: "Movie APP consume data with API and send rate movie with API rule",
     source: "https://github.com/FajriSiiv/movie-app",
   },
+  
 ];
 
 export const TimeLineData = [
