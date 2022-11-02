@@ -21,11 +21,11 @@ const Header = () => (
           style={{
             display: "flex",
             alignItems: "center",
+            justifyContent: "center",
             color: "white",
-            marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Portofolio</Span>
+          <DiCssdeck size="3rem" /> <Span>Muh.Fajri</Span>
         </a>
       </Link>
     </Div1>
