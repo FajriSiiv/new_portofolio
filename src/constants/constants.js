@@ -71,7 +71,22 @@ export const projects = [
     desc: "Movie APP consume data with API and send rate movie with API rule",
     source: "https://github.com/FajriSiiv/movie-app",
   },
-  
+  {
+    title: "React Dashboard",
+    tags: ["React.js", "Material-UI", "Material-UI Components"],
+    visit: "https://react-admin-dashboard-1.vercel.app/",
+    id: 8,
+    desc: "Creating good dashboard admin",
+    source: "https://github.com/FajriSiiv/react-admin-dashboard-1",
+  },
+  {
+    title: "Pokedex",
+    tags: ["Next.js", "SSR", "Tailwind CSS"],
+    visit: "https://pokemons-fajrisiiv.vercel.app/",
+    id: 9,
+    desc: "Pokedex with pokemon detail",
+    source: "https://github.com/FajriSiiv/pokemons",
+  },
 ];
 
 export const TimeLineData = [
