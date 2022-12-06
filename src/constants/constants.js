@@ -87,6 +87,22 @@ export const projects = [
     desc: "Pokedex with pokemon detail",
     source: "https://github.com/FajriSiiv/pokemons",
   },
+  {
+    title: "FaLearn",
+    tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
+    visit: "https://falearn.vercel.app/",
+    id: 10,
+    desc: "Landing Page Website",
+    source: "https://github.com/FajriSiiv/falearn",
+  },
+  {
+    title: "Educourse",
+    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "API NEXT.js"],
+    visit: "https://educourse.vercel.app/",
+    id: 11,
+    desc: "Landing Page Website",
+    source: "https://github.com/FajriSiiv/educourse",
+  },
 ];
 
 export const TimeLineData = [
