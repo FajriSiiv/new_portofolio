@@ -103,6 +103,21 @@ export const projects = [
     desc: "Landing Page Website",
     source: "https://github.com/FajriSiiv/educourse",
   },
+  {
+    title: "MERN CRUD Project",
+    tags: [
+      "Vite React",
+      "Zustand",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+    ],
+    visit: "https://fe-karyawan-online.vercel.app/",
+    id: 11,
+    desc: "MERN Stack Project",
+    source: "https://github.com/FajriSiiv/FE_Karyawan_Online",
+  },
 ];
 
 export const TimeLineData = [
