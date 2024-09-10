@@ -15,6 +15,14 @@ export const projects = [
     desc: "Searching games with pagination and filter.",
   },
   {
+    title: "Zeya",
+    tags: ["Nexj.JS", "TailwindCSS"],
+    visit: "https://zeya.vercel.app/",
+    id: 62,
+    source: "https://github.com/FajriSiiv/leya",
+    desc: "Cloning website Leya.law",
+  },
+  {
     title: "Github Search Profil",
     tags: ["NEXT.js", "API", "TailwindCSS"],
     visit: "https://github-search-fajri.vercel.app/",
