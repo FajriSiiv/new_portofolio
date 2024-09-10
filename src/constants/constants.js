@@ -1,11 +1,18 @@
 export const projects = [
   {
-    title: "Chrip.",
-    tags: ["Next.js", "TailwindCSS"],
-    visit: "https://chrip.vercel.app/",
+    title: "Kreasi Hexa",
+    tags: ["React.JS", "TailwindCSS"],
+    visit: "https://www.kreasihexa.com/",
     id: 0,
-    desc: "Creating landing page from design",
-    source: "https://github.com/FajriSiiv/chrip",
+    source: "https://github.com/FajriSiiv/preview-website-hexa",
+  },
+  {
+    title: "Games API",
+    tags: ["Nexj.JS", "TailwindCSS", "SSR", "API", "Pagination"],
+    visit: "https://games-rawg.vercel.app/",
+    id: 61,
+    source: "https://github.com/FajriSiiv/games-rawg",
+    desc: "Searching games with pagination and filter.",
   },
   {
     title: "Github Search Profil",
@@ -14,14 +21,6 @@ export const projects = [
     id: 1,
     desc: "Searching github profile and consume API from github.",
     source: "https://github.com/FajriSiiv/github-search",
-  },
-  {
-    title: "Spotify Clone",
-    tags: ["React", "Context", "Styled Components", "API"],
-    visit: "https://spotify-clone-gilt.vercel.app/",
-    id: 2,
-    desc: "Cloning Spotify App with react,usecontext, API Consume",
-    source: "https://github.com/FajriSiiv/spotify-clone/tree/master",
   },
   {
     title: "Dashboard",
@@ -47,14 +46,7 @@ export const projects = [
     desc: "Creating details product page with cool design",
     source: "https://github.com/FajriSiiv/product-page",
   },
-  {
-    title: "Easybank",
-    tags: ["React", "Javascript", "CSS"],
-    visit: "https://easybank-woad.vercel.app/",
-    id: 6,
-    desc: "Creating cool landing page with React.js and CSS",
-    source: "https://github.com/FajriSiiv/easybank",
-  },
+
   {
     title: "E-Commerce",
     tags: ["Next.js", "Javascript", "TailwindCSS", "Redux"],
@@ -71,14 +63,7 @@ export const projects = [
     desc: "Movie APP consume data with API and send rate movie with API rule",
     source: "https://github.com/FajriSiiv/movie-app",
   },
-  {
-    title: "React Dashboard",
-    tags: ["React.js", "Material-UI", "Material-UI Components"],
-    visit: "https://react-admin-dashboard-1.vercel.app/",
-    id: 8,
-    desc: "Creating good dashboard admin",
-    source: "https://github.com/FajriSiiv/react-admin-dashboard-1",
-  },
+
   {
     title: "Pokedex",
     tags: ["Next.js", "SSR", "Tailwind CSS"],
@@ -87,22 +72,7 @@ export const projects = [
     desc: "Pokedex with pokemon detail",
     source: "https://github.com/FajriSiiv/pokemons",
   },
-  {
-    title: "FaLearn",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
-    visit: "https://falearn.vercel.app/",
-    id: 10,
-    desc: "Landing Page Website",
-    source: "https://github.com/FajriSiiv/falearn",
-  },
-  {
-    title: "Educourse",
-    tags: ["Next.js", "Framer Motion", "Tailwind CSS", "API NEXT.js"],
-    visit: "https://educourse.vercel.app/",
-    id: 11,
-    desc: "Landing Page Website",
-    source: "https://github.com/FajriSiiv/educourse",
-  },
+
   {
     title: "MERN CRUD Project",
     tags: [
